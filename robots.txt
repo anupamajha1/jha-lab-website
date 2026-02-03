@@ -1,1 +1,1 @@
-Sitemap: http://jhalab.org/sitemap.xml
+Sitemap: https://anupamajha1.github.io/jha-lab-website/sitemap.xml
