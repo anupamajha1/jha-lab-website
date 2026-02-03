@@ -5,6 +5,6 @@
 
   # anupamajha1's Website
 
-  Visit **[jhalab.org](http://jhalab.org)** 🚀
+  Visit **[anupamajha1.github.io/jha-lab-website](https://anupamajha1.github.io/jha-lab-website)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
