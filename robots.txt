@@ -1,1 +1,1 @@
-Sitemap: http://jhalab.org/sitemap.xml
+Sitemap: http://www.jhalab.org/sitemap.xml
