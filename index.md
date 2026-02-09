@@ -1,7 +1,7 @@
 ---
 ---
 
-# anupamajha1's Website
+# Jha Lab at Yale
 
 An engaging 1-3 sentence description of your lab.
 
