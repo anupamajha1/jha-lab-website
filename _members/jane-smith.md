@@ -1,20 +1,14 @@
 ---
-name: Jane Smith
-image: images/photo.jpg
+name: Anupama Jha
+image: images/AnupamaJha.jpg
 role: principal-investigator
-affiliation: University of Colorado
+affiliation: Yale University
 aliases:
-  - J. Smith
-  - J Smith
+  - A. Jha
+  - A Jha
 links:
-  home-page: https://janesmith.com
-  orcid: 0000-0001-8713-9213
+  home-page: https://anupamajha.com/
+  orcid: 0000-0003-3029-2086
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Faucibus purus in massa tempor nec feugiat nisl pretium fusce.
-Elit at imperdiet dui accumsan.
-Duis tristique sollicitudin nibh sit amet commodo nulla facilisi.
-Vitae elementum curabitur vitae nunc sed velit dignissim sodales.
-Lacinia at quis risus sed vulputate odio ut.
-Magna eget est lorem ipsum.
+Anupama is an Assistant Professor in the Department of Genetics at Yale. She develops predictive models for 3D genome architecture and downstream gene regulation across healthy tissues and cancers with large-scale machine learning methods. 
