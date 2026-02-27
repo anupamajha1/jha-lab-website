@@ -3,7 +3,7 @@
 
 # The Jha Lab at Yale Genetics
 
- We study 3D genome architecture and downstream gene regulation across healthy tissues and cancers with large-scale machine learning methods.  
+ We study 3D genome architecture and downstream gene regulation across healthy tissues and cancers with machine learning.  
 
 {% include section.html %}
 
