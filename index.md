@@ -1,9 +1,9 @@
 ---
 ---
 
-# Jha Lab at Yale
+# The Jha Lab at Yale Genetics
 
-An engaging 1-3 sentence description of your lab.
+ We study 3D genome architecture and downstream gene regulation across healthy tissues and cancers with large-scale machine learning methods.  
 
 {% include section.html %}
 
