@@ -11,6 +11,10 @@
     - Trans-contacts
   repo: https://github.com/Noble-Lab/twinc
 
+- id: doi:10.1101/2025.11.19.689320
+
+- id: doi:10.1101/2025.11.18.689171
+
 - id: doi:10.1093/nar/gkae1260
   image: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/94e3/11797022/5413fe56e7da/gkae1260figgra1.jpg
 
@@ -29,6 +33,32 @@
 - id: doi:10.1093/bioinformatics/btae211
   image: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/82c4/11211821/50520d60d8fc/btae211f1.jpg 
 
-- id: doi:10.1186/s13059-022-02681-3.
+- id: doi:10.1038/s41467-023-36585-y
+  image: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cbb5/9984406/f72df66ce7b5/41467_2023_36585_Fig1_HTML.jpg
+
+- id: doi:10.1186/s13059-022-02681-3
   image: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b04d/9112525/0b1530676524/13059_2022_2681_Fig6_HTML.jpg
+
+- id: doi:10.1128/MCB.00668-20
+  image: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/65ca/8384066/f5f575d2456f/mcb.00668-20-f005.jpg
+
+- id: doi:10.1038/s41467-021-23608-9
+  image: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1a52/8184769/d400678fb6f3/41467_2021_23608_Fig3_HTML.jpg
+
+- id: doi:10.1186/s13195-021-00773-z
+  image: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a37a/7860582/2e692b7b3aca/13195_2021_773_Fig3_HTML.jpg
+
+- id: doi:10.1186/s13059-020-02055-7
+  image: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/961c/7305616/1fe99801b873/13059_2020_2055_Fig1_HTML.jpg
+
+- id: doi:10.1093/bioinformatics/btx268
+  image: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6232/5870723/d6d2d0a10452/btx268f2.jpg
+
+- id: doi:10.1101/gr.220517.117
+  image: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5250/5538552/6a0b3f4c644b/1360f01.jpg
+
+
+
+
+  
 
