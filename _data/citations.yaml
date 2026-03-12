@@ -234,24 +234,67 @@
   - Alessandro Bertero
   - William Stafford Noble
   publisher: openRxiv
-  date: '2020-12-04'
+  date: '2024-09-21'
   link: https://doi.org/hbsbtb
-  type: paper
-  description: Prediction and functional interpretation of inter-chromosomal genome
-    architecture from DNA sequence with TwinC.
-  image: https://www.biorxiv.org/content/10.1101/2024.09.16.613355v3
-  buttons:
-  - type: GitHub
-    link: https://github.com/Noble-Lab/twinc
-  tags:
-  - 3D Genome
-  - Trans-contacts
-  repo: https://github.com/Noble-Lab/twinc
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1101/gr.279095.124.
-  title: DNA-m6A calling and integrated long-read epigenetic and genetic analysis
-    with <i>fibertools</i>
+- id: doi:10.1093/nar/gkae1260
+  title: Machine learning-optimized targeted detection of alternative splicing
+  authors:
+  - Kevin Yang
+  - Nathaniel Islas
+  - San Jewell
+  - Di Wu
+  - Anupama Jha
+  - "Caleb\_M Radens"
+  - "Jeffrey\_A Pleiss"
+  - "Kristen\_W Lynch"
+  - Yoseph Barash
+  - "Peter\_S Choi"
+  publisher: Nucleic Acids Research
+  date: '2024-12-27'
+  link: https://doi.org/hbsbx8
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1101/2025.01.20.633986
+  title: Generative modeling for RNA splicing prediction and design
+  authors:
+  - Di Wu
+  - Natalie Maus
+  - Anupama Jha
+  - Kevin Yang
+  - Benjamin D. Wales-McGrath
+  - San Jewell
+  - Anna Tangiyan
+  - Peter Choi
+  - Jacob R. Gardner
+  - Yoseph Barash
+  publisher: openRxiv
+  date: '2025-01-24'
+  link: https://doi.org/hbsbx9
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1101/2024.12.16.628821
+  title: A generalizable Hi-C foundation model for chromatin architecture, single-cell
+    and multi-omics analysis across species
+  authors:
+  - Xiao Wang
+  - Yuanyuan Zhang
+  - Suhita Ray
+  - Anupama Jha
+  - Tangqi Fang
+  - Shengqi Hang
+  - Sergei Doulatov
+  - William Stafford Noble
+  - Sheng Wang
+  publisher: openRxiv
+  date: '2024-12-20'
+  link: https://doi.org/hbsbzb
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1101/gr.279095.124
+  title: "DNA-m6A calling and integrated long-read epigenetic and genetic analysis\
+    \ with\n                    <i>fibertools</i>"
   authors:
   - Anupama Jha
   - Stephanie C. Bohaczuk
@@ -269,12 +312,32 @@
   - Andrew B. Stergachis
   - Mitchell R. Vollger
   publisher: Genome Research
-  date: '2024-11-01'
-  link: https://doi.org/10.1101/gr.279095.124.
-  image: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/406f/11610455/15fb8b2e56e3/1976f01.jpg
+  date: '2024-06-07'
+  link: https://doi.org/hbsbzc
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1186/s13059-022-02681-3.
+- id: doi:10.1093/bioinformatics/btae211
+  title: 'Enhancing Hi-C contact matrices for loop detection with Capricorn: a multiview
+    diffusion model'
+  authors:
+  - Tangqi Fang
+  - Yifeng Liu
+  - Addie Woicik
+  - Minsi Lu
+  - Anupama Jha
+  - Xiao Wang
+  - Gang Li
+  - Borislav Hristov
+  - Zixuan Liu
+  - Hanwen Xu
+  - William S Noble
+  - Sheng Wang
+  publisher: Bioinformatics
+  date: '2024-06-28'
+  link: https://doi.org/gt72kx
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/s13059-022-02681-3
   title: Identifying common transcriptome signatures of cancer by interpreting deep
     learning models
   authors:
@@ -286,7 +349,21 @@
   - Yoseph Barash
   publisher: Genome Biology
   date: '2022-05-17'
-  link: https://doi.org/10.1186/s13059-022-02681-3.
-  image: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b04d/9112525/0b1530676524/13059_2022_2681_Fig6_HTML.jpg
+  link: https://doi.org/gsxkdh
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1101/gr.220517.117
+  title: Ancient antagonism between CELF and RBFOX families tunes mRNA splicing outcomes
+  authors:
+  - Matthew R. Gazzara
+  - Michael J. Mallory
+  - Renat Roytenberg
+  - John P. Lindberg
+  - Anupama Jha
+  - Kristen W. Lynch
+  - Yoseph Barash
+  publisher: Genome Research
+  date: '2017-05-16'
+  link: https://doi.org/gbh6xw
   plugin: sources.py
   file: sources.yaml
