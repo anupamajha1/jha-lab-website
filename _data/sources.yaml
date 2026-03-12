@@ -1,23 +1,19 @@
-- id: doi:10.1371/journal.pcbi.1007128
+- id: doi:10.1101/2024.09.16.613355
   type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: Prediction and functional interpretation of inter-chromosomal genome architecture from DNA sequence with TwinC.
   date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  image: https://www.biorxiv.org/content/10.1101/2024.09.16.613355v3
   buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
-    - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
+    - type: GitHub
+      link: https://github.com/Noble-Lab/twinc
   tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
+    - 3D Genome
+    - Trans-contacts
+  repo: https://github.com/Noble-Lab/twinc
 
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+- id: doi:10.1101/gr.279095.124.
+  image: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/406f/11610455/15fb8b2e56e3/1976f01.jpg
 
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+- id: doi:10.1186/s13059-022-02681-3.
+  image: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b04d/9112525/0b1530676524/13059_2022_2681_Fig6_HTML.jpg
+
