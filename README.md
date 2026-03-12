@@ -3,7 +3,7 @@
   ![on-pull-request](../../actions/workflows/on-pull-request.yaml/badge.svg)
   ![on-schedule](../../actions/workflows/on-schedule.yaml/badge.svg)
 
-  # anupamajha1's Website
+  # Jha Lab's Website
 
   Visit **[jhalab.org](https://jhalab.org)** 🚀
 
