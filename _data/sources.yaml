@@ -14,10 +14,10 @@
 - id: doi:10.1093/nar/gkae1260
   image: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/94e3/11797022/5413fe56e7da/gkae1260figgra1.jpg
 
-- id: doi:10.1101/2025.01.20.633986.
+- id: doi:10.1101/2025.01.20.633986
   image: https://www.ncbi.nlm.nih.gov/corecgi/tileshop/tileshop.fcgi?p=PMC3&id=276129&s=207&r=3&c=1
 
-- id: doi:10.1101/2025.01.20.633986.
+- id: doi:10.1101/2025.01.20.633986
   image: https://www.ncbi.nlm.nih.gov/corecgi/tileshop/tileshop.fcgi?p=PMC3&id=276129&s=207&r=3&c=1
   
 - id: doi: 10.1101/2024.12.16.628821
@@ -29,7 +29,7 @@
 - id: doi:10.1093/bioinformatics/btae211
   image: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/82c4/11211821/50520d60d8fc/btae211f1.jpg 
 
-- id: doi:10.1186/s13059-022-02681-3.
+- id: doi:10.1186/s13059-022-02681-3
   image: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b04d/9112525/0b1530676524/13059_2022_2681_Fig6_HTML.jpg
 
 - id: doi: 10.1101/gr.220517.117
