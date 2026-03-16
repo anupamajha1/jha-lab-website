@@ -147,10 +147,13 @@ for index, source in enumerate(sources):
         except Exception as e:
             plugin = get_safe(source, "plugin", "")
             file = get_safe(source, "file", "")
-            # if regular source (id entered by user), throw error
+            # for hand-curated sources, allow manual metadata to stand in when
+            # Manubot doesn't support the identifier.
             if plugin == "sources.py":
-                log(e, indent=3, level="ERROR")
-                errors.append(f"Manubot could not generate citation for source {_id}")
+                log(e, indent=3, level="WARNING")
+                warnings.append(
+                    f"Manubot could not generate citation for source {_id}; using manual source metadata from {file}"
+                )
             # otherwise, if from metasource (id retrieved from some third-party api), just warn
             else:
                 log(e, indent=3, level="WARNING")
