@@ -220,11 +220,154 @@
   orcid: 0000-0002-4655-3773
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1101/2025.11.19.689320
+  title: Puget predicts gene expression across cell types using sequence and 3D chromatin
+    organization data
+  authors:
+  - Shengqi Hang
+  - Xiao Wang
+  - Ghulam Murtaza
+  - '**Anupama Jha**'
+  - Bo Wen
+  - Tangqi Fang
+  - Justin Sanders
+  - Sheng Wang
+  - William Stafford Noble
+  publisher: bioRxiv
+  date: '2025-11-20'
+  link: https://doi.org/10.1101/2025.11.19.689320
+  type: preprint
+  image: images/puget_figure.png
+  description: Predicts gene expression across cell types by combining sequence information
+    with 3D chromatin organization.
+  repo: Noble-Lab/Puget
+  buttons:
+  - type: paper
+    text: Preprint
+    link: https://doi.org/10.1101/2025.11.19.689320
+  - type: source
+    text: Code
+    link: https://github.com/Noble-Lab/Puget
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1101/2025.11.18.689171
+  title: 'Evo2HiC: a multimodal foundation model for integrative analysis of genome
+    sequence and architecture'
+  authors:
+  - Tangqi Fang
+  - Xiao Wang
+  - Zhiping Xiao
+  - Shengqi Hang
+  - Ghulam Murtaza
+  - Junwei Yang
+  - Hanwen Xu
+  - '**Anupama Jha**'
+  - William Noble
+  - Sheng Wang
+  publisher: bioRxiv
+  date: '2025-11-19'
+  link: https://doi.org/10.1101/2025.11.18.689171
+  type: preprint
+  image: images/evo2hic_figure.png
+  description: Introduces a multimodal foundation model that jointly learns genome
+    sequence and chromatin architecture.
+  repo: CHNFTQ/Evo2HiC
+  buttons:
+  - type: paper
+    text: Preprint
+    link: https://doi.org/10.1101/2025.11.18.689171
+  - type: source
+    text: Code
+    link: https://github.com/CHNFTQ/Evo2HiC
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1101/2025.01.20.633986
+  title: Generative modeling for RNA splicing prediction and design
+  authors:
+  - Di Wu
+  - Natalie Maus
+  - '**Anupama Jha**'
+  - Kevin Yang
+  - Benjamin D. Wales-McGrath
+  - San Jewell
+  - Anna Tangiyan
+  - Peter Choi
+  - Jacob R. Gardner
+  - Yoseph Barash
+  publisher: openRxiv
+  date: '2025-01-24'
+  link: https://doi.org/10.1101/2025.01.20.633986
+  type: preprint
+  image: images/generative-splicing.jpg
+  description: Uses generative modeling to predict and design RNA splicing outcomes
+    from sequence features.
+  buttons:
+  - type: paper
+    text: Preprint
+    link: https://doi.org/10.1101/2025.01.20.633986
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1093/nar/gkae1260
+  title: Machine learning-optimized targeted detection of alternative splicing
+  authors:
+  - Kevin Yang
+  - Nathaniel Islas
+  - San Jewell
+  - Di Wu
+  - '**Anupama Jha**'
+  - Caleb M. Radens
+  - Jeffrey A. Pleiss
+  - Kristen W. Lynch
+  - Yoseph Barash
+  - Peter S. Choi
+  publisher: Nucleic Acids Research
+  date: '2024-12-27'
+  link: https://doi.org/10.1093/nar/gkae1260
+  type: article
+  image: images/splicing-targeted-detection.jpg
+  description: Applies machine learning to optimize targeted detection of alternative
+    splicing events.
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://doi.org/10.1093/nar/gkae1260
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1101/2024.12.16.628821
+  title: A generalizable Hi-C foundation model for chromatin architecture, single-cell
+    and multi-omics analysis across species
+  authors:
+  - Xiao Wang
+  - Yuanyuan Zhang
+  - Suhita Ray
+  - '**Anupama Jha**'
+  - Tangqi Fang
+  - Shengqi Hang
+  - Sergei Doulatov
+  - William Stafford Noble
+  - Sheng Wang
+  publisher: openRxiv
+  date: '2024-12-20'
+  link: https://doi.org/10.1101/2024.12.16.628821
+  type: preprint
+  image: images/hic-foundation.jpg
+  description: Presents a generalizable Hi-C foundation model for chromatin architecture
+    across species and assays.
+  repo: Noble-Lab/HiCFoundation
+  buttons:
+  - type: paper
+    text: Preprint
+    link: https://doi.org/10.1101/2024.12.16.628821
+  - type: source
+    text: Code
+    link: https://github.com/Noble-Lab/HiCFoundation
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1101/2024.09.16.613355
   title: Prediction and functional interpretation of inter-chromosomal genome architecture
     from DNA sequence with TwinC
   authors:
-  - Anupama Jha
+  - '**Anupama Jha**'
   - Borislav Hristov
   - Xiao Wang
   - Sheng Wang
@@ -235,68 +378,59 @@
   - William Stafford Noble
   publisher: openRxiv
   date: '2024-09-21'
-  link: https://doi.org/hbsbtb
+  link: https://doi.org/10.1101/2024.09.16.613355
+  type: preprint
+  image: images/twinc.jpg
+  description: Predicts and interprets inter-chromosomal genome architecture directly
+    from DNA sequence.
+  repo: Noble-Lab/twinc
+  buttons:
+  - type: paper
+    text: Preprint
+    link: https://doi.org/10.1101/2024.09.16.613355
+  - type: source
+    text: Code
+    link: https://github.com/Noble-Lab/twinc
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1093/nar/gkae1260
-  title: Machine learning-optimized targeted detection of alternative splicing
+- id: doi:10.1093/bioinformatics/btae211
+  title: 'Enhancing Hi-C contact matrices for loop detection with Capricorn: a multiview
+    diffusion model'
   authors:
-  - Kevin Yang
-  - Nathaniel Islas
-  - San Jewell
-  - Di Wu
-  - Anupama Jha
-  - "Caleb\_M Radens"
-  - "Jeffrey\_A Pleiss"
-  - "Kristen\_W Lynch"
-  - Yoseph Barash
-  - "Peter\_S Choi"
-  publisher: Nucleic Acids Research
-  date: '2024-12-27'
-  link: https://doi.org/hbsbx8
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1101/2025.01.20.633986
-  title: Generative modeling for RNA splicing prediction and design
-  authors:
-  - Di Wu
-  - Natalie Maus
-  - Anupama Jha
-  - Kevin Yang
-  - Benjamin D. Wales-McGrath
-  - San Jewell
-  - Anna Tangiyan
-  - Peter Choi
-  - Jacob R. Gardner
-  - Yoseph Barash
-  publisher: openRxiv
-  date: '2025-01-24'
-  link: https://doi.org/hbsbx9
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1101/2024.12.16.628821
-  title: A generalizable Hi-C foundation model for chromatin architecture, single-cell
-    and multi-omics analysis across species
-  authors:
-  - Xiao Wang
-  - Yuanyuan Zhang
-  - Suhita Ray
-  - Anupama Jha
   - Tangqi Fang
-  - Shengqi Hang
-  - Sergei Doulatov
-  - William Stafford Noble
+  - Yifeng Liu
+  - Addie Woicik
+  - Minsi Lu
+  - '**Anupama Jha**'
+  - Xiao Wang
+  - Gang Li
+  - Borislav Hristov
+  - Zixuan Liu
+  - Hanwen Xu
+  - William S. Noble
   - Sheng Wang
-  publisher: openRxiv
-  date: '2024-12-20'
-  link: https://doi.org/hbsbzb
+  publisher: Bioinformatics
+  date: '2024-06-28'
+  link: https://doi.org/10.1093/bioinformatics/btae211
+  type: article
+  image: images/capricorn.jpg
+  description: Enhances Hi-C contact matrices with a diffusion model to improve loop
+    detection.
+  repo: CHNFTQ/Capricorn
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://doi.org/10.1093/bioinformatics/btae211
+  - type: source
+    text: Code
+    link: https://github.com/CHNFTQ/Capricorn
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1101/gr.279095.124
-  title: "DNA-m6A calling and integrated long-read epigenetic and genetic analysis\
-    \ with\n                    <i>fibertools</i>"
+  title: DNA-m6A calling and integrated long-read epigenetic and genetic analysis
+    with <i>fibertools</i>
   authors:
-  - Anupama Jha
+  - '**Anupama Jha**'
   - Stephanie C. Bohaczuk
   - Yizi Mao
   - Jane Ranchalis
@@ -313,43 +447,171 @@
   - Mitchell R. Vollger
   publisher: Genome Research
   date: '2024-06-07'
-  link: https://doi.org/hbsbzc
+  link: https://doi.org/10.1101/gr.279095.124
+  type: article
+  image: images/fibertools.jpg
+  description: Describes DNA-m6A calling and integrated long-read epigenetic analysis
+    with fibertools.
+  repo: fiberseq/fibertools-rs
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://doi.org/10.1101/gr.279095.124
+  - type: source
+    text: Code
+    link: https://github.com/fiberseq/fibertools-rs
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1093/bioinformatics/btae211
-  title: 'Enhancing Hi-C contact matrices for loop detection with Capricorn: a multiview
-    diffusion model'
+- id: doi:10.1038/s41467-023-36585-y
+  title: RNA splicing analysis using heterogeneous and large RNA-seq datasets
   authors:
-  - Tangqi Fang
-  - Yifeng Liu
-  - Addie Woicik
-  - Minsi Lu
-  - Anupama Jha
-  - Xiao Wang
-  - Gang Li
-  - Borislav Hristov
-  - Zixuan Liu
-  - Hanwen Xu
-  - William S Noble
-  - Sheng Wang
-  publisher: Bioinformatics
-  date: '2024-06-28'
-  link: https://doi.org/gt72kx
+  - Jorge Vaquero-Garcia
+  - Joseph K. Aicher
+  - San Jewell
+  - Matthew R. Gazzara
+  - Caleb M. Radens
+  - '**Anupama Jha**'
+  - Scott S. Norton
+  - Nicholas F. Lahens
+  - Gregory R. Grant
+  - Yoseph Barash
+  publisher: Nature Communications
+  date: '2023-03-03'
+  link: https://doi.org/10.1038/s41467-023-36585-y
+  type: article
+  image: images/rnaseq-large-datasets.png
+  description: Studies large heterogeneous RNA-seq datasets to improve RNA splicing
+    analysis at scale.
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://doi.org/10.1038/s41467-023-36585-y
+  - type: source
+    text: Code
+    link: https://majiq.biociphers.org/
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1186/s13059-022-02681-3
   title: Identifying common transcriptome signatures of cancer by interpreting deep
     learning models
   authors:
-  - Anupama Jha
-  - "Mathieu Quesnel-Valli\xE8res"
+  - '**Anupama Jha**'
+  - Mathieu Quesnel-Vallieres
   - David Wang
   - Andrei Thomas-Tikhonenko
-  - Kristen W Lynch
+  - Kristen W. Lynch
   - Yoseph Barash
   publisher: Genome Biology
   date: '2022-05-17'
-  link: https://doi.org/gsxkdh
+  link: https://doi.org/10.1186/s13059-022-02681-3
+  type: article
+  image: images/cancer-signatures.jpg
+  description: Interprets deep learning models to identify transcriptomic signatures
+    shared across cancers.
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://doi.org/10.1186/s13059-022-02681-3
+  - type: source
+    text: Code
+    link: https://bitbucket.org/biociphers/pan-cancer/
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1128/MCB.00668-20
+  title: RNA-binding proteins PCBP1 and PCBP2 are critical determinants of murine
+    erythropoiesis
+  authors:
+  - X. Ji
+  - '**Anupama Jha**'
+  - J. Humenik
+  - L. R. Ghanem
+  - A. Kromer
+  - C. Duncan-Lewis
+  - '...'
+  publisher: Molecular and Cellular Biology
+  date: '2021-08-24'
+  link: https://doi.org/10.1128/MCB.00668-20
+  type: article
+  image: images/pcbp-erythropoiesis.jpg
+  description: Shows that PCBP1 and PCBP2 are critical regulators of murine erythropoiesis.
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://doi.org/10.1128/MCB.00668-20
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/s13195-021-00773-z
+  title: "Multi-trait association studies discover pleiotropic loci between Alzheimer\u2019\
+    s disease and cardiometabolic traits"
+  authors:
+  - W. P. Bone
+  - K. M. Siewert
+  - '**Anupama Jha**'
+  - D. Klarin
+  - S. M. Damrauer
+  - K. M. Chang
+  - '...'
+  publisher: Alzheimer's Research & Therapy
+  date: '2021-02-04'
+  link: https://doi.org/10.1186/s13195-021-00773-z
+  type: article
+  image: images/alz-cardiometabolic.png
+  description: Identifies pleiotropic loci shared between Alzheimer's disease and
+    cardiometabolic traits.
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://doi.org/10.1186/s13195-021-00773-z
+  - type: source
+    text: Code
+    link: https://github.com/wpbone06/AD_and_Cardiometabolic_Trait_Bivariate_Scans
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/s13059-020-02055-7
+  title: 'Enhanced integrated gradients: improving interpretability of deep learning
+    models using splicing codes as a case study'
+  authors:
+  - '**Anupama Jha**'
+  - J. K. Aicher
+  - M. R. Gazzara
+  - D. Singh
+  - Y. Barash
+  publisher: Genome Biology
+  date: '2020-06-19'
+  link: https://doi.org/10.1186/s13059-020-02055-7
+  type: article
+  image: images/enhanced-integrated-gradients.png
+  description: Improves deep learning interpretability with Enhanced Integrated Gradients
+    using splicing codes as a case study.
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://doi.org/10.1186/s13059-020-02055-7
+  - type: source
+    text: Code
+    link: https://bitbucket.org/biociphers/eig/src/master/
+  plugin: sources.py
+  file: sources.yaml
+- id: pmc:PMC5870723
+  title: Integrative deep models for alternative splicing
+  authors:
+  - '**Anupama Jha**'
+  - Matthew R. Gazzara
+  - Yoseph Barash
+  publisher: Bioinformatics
+  date: '2017-07-12'
+  link: https://pmc.ncbi.nlm.nih.gov/articles/PMC5870723/
+  type: article
+  image: images/integrative-deep-models.jpg
+  description: Develops integrative deep learning models for predicting alternative
+    splicing regulation.
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://pmc.ncbi.nlm.nih.gov/articles/PMC5870723/
+  - type: source
+    text: Code
+    link: https://majiq.biociphers.org/jha_et_al_2017/
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1101/gr.220517.117
@@ -359,11 +621,39 @@
   - Michael J. Mallory
   - Renat Roytenberg
   - John P. Lindberg
-  - Anupama Jha
+  - '**Anupama Jha**'
   - Kristen W. Lynch
   - Yoseph Barash
   publisher: Genome Research
   date: '2017-05-16'
-  link: https://doi.org/gbh6xw
+  link: https://doi.org/10.1101/gr.220517.117
+  type: article
+  image: images/celf-rbfox.jpg
+  description: Reveals how CELF and RBFOX family antagonism shapes mRNA splicing outcomes.
+  buttons:
+  - type: paper
+    text: Paper
+    link: https://doi.org/10.1101/gr.220517.117
+  plugin: sources.py
+  file: sources.yaml
+- id: iup:tmdl-compiler
+  title: An Optimizing Compiler for Turing Machine Description Language
+  type: article
+  authors:
+  - P. Chakraborty
+  - S. Taneja
+  - N. Anand
+  - '**Anupama Jha**'
+  - D. Malik
+  - A. Nayar
+  publisher: IUP Journal of Computer Sciences
+  date: '2011-07-01'
+  link: https://www.iupindia.in/1107/Computer%20Sciences/An_Optimizing_Compiler.html
+  image: images/tmdl-compiler.jpg
+  description: Describes an optimizing compiler for a Turing Machine Description Language.
+  buttons:
+  - type: paper
+    text: Article
+    link: https://www.iupindia.in/1107/Computer%20Sciences/An_Optimizing_Compiler.html
   plugin: sources.py
   file: sources.yaml
