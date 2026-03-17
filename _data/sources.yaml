@@ -393,5 +393,6 @@
   description: Describes an optimizing compiler for a Turing Machine Description Language.
   buttons:
     - type: paper
+    
       text: Article
       link: https://www.iupindia.in/1107/Computer%20Sciences/An_Optimizing_Compiler.html
