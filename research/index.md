@@ -15,6 +15,8 @@ Our research sits at the interface of genomics, RNA biology, and machine learnin
 ## Highlighted
 
 {% include citation.html lookup="TwinC" style="rich" %}
+{% include citation.html lookup="fibertools" style="rich" %}
+{% include citation.html lookup="Enhanced integrated gradients" style="rich" %}
 
 {% include section.html %}
 
