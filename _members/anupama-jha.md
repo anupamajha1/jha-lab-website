@@ -12,7 +12,7 @@ links:
   email: anupama.jha@yale.edu
   orcid: 0000-0003-3029-2086
   google-scholar: aIhgsDIAAAAJ
-  gitHub: anupamajha1
+  github: anupamajha1
   
 ---
 
