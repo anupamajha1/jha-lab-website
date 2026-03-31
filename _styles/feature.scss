@@ -31,6 +31,13 @@ $wrap: 800px;
   background: var(--background);
 }
 
+.feature-image[data-contain] {
+  aspect-ratio: 16 / 10;
+  padding: 12px;
+  box-sizing: border-box;
+  background: var(--background);
+}
+
 .feature-text {
   flex-grow: 1;
 }
