@@ -11,10 +11,13 @@
 
 .contact-media-card .figure-image {
   display: block;
+  width: 100%;
 }
 
-.contact-media-card img {
-  width: 100%;
+.contact-media-card .figure-image img {
+  display: block;
+  width: 100% !important;
+  height: auto;
   aspect-ratio: 1/1;
   max-height: none;
   object-fit: cover;
@@ -26,6 +29,12 @@
   border-radius: var(--rounded);
   overflow: hidden;
   box-shadow: var(--shadow);
+}
+
+.contact-media-card,
+.contact-media-card .figure,
+.contact-media-card .contact-map-frame {
+  width: 100%;
 }
 
 .contact-map-frame iframe {
