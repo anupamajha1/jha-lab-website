@@ -1,11 +1,11 @@
 ---
-title: Contact
+title: Join
 nav:
   order: 5
-  tooltip: Email, address, and location
+  tooltip: Join the lab
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+# {% include icon.html icon="fa-solid fa-user-plus" %}Join
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
