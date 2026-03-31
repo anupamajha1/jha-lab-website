@@ -65,20 +65,19 @@ button {
 }
 
 .button[data-style="home-cta"] {
-  justify-content: space-between;
-  width: min(100%, 460px);
-  margin-top: 18px;
-  padding: 20px 28px;
-  border-radius: 8px;
-  background: #1494d2;
-  color: #ffffff;
-  font-size: 1.2rem;
-  font-weight: var(--bold);
-  box-shadow: 0 14px 26px -22px rgba(20, 148, 210, 0.95);
+  margin-top: 5px;
+  padding: 8px 15px;
+  border-radius: var(--rounded);
+  background: var(--primary);
+  color: var(--background);
+  font: inherit;
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+  box-shadow: none;
 
   &:hover {
-    background: #0f7fb6;
-    color: #ffffff;
+    background: var(--text);
+    color: var(--background);
   }
 }
 

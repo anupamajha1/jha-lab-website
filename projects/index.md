@@ -21,7 +21,7 @@ nav:
     </p>
   </div>
 
-  {% include button.html text="See our publications" link="/publications/" style="cta" %}
+  {% include button.html text="See our publications" link="/publications/" style="home-cta" %}
 
   {% include section.html %}
 
