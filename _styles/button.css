@@ -59,6 +59,23 @@ button {
   color: #ffffff;
 }
 
+.button[data-style=home-cta] {
+  justify-content: space-between;
+  width: min(100%, 460px);
+  margin-top: 18px;
+  padding: 20px 28px;
+  border-radius: 8px;
+  background: #1494d2;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: var(--bold);
+  box-shadow: 0 14px 26px -22px rgba(20, 148, 210, 0.95);
+}
+.button[data-style=home-cta]:hover {
+  background: #0f7fb6;
+  color: #ffffff;
+}
+
 .button[data-flip] {
   flex-direction: row-reverse;
 }
