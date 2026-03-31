@@ -1,0 +1,49 @@
+---
+---
+
+.contact-media {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 40px;
+  margin: 40px 0;
+}
+
+.contact-media-card .figure {
+  margin: 0;
+}
+
+.contact-media-card img {
+  width: 100%;
+  max-height: 520px;
+  object-fit: cover;
+}
+
+.contact-map-frame {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: var(--rounded);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.contact-map-frame iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.contact-page .button {
+  background: #000000;
+  color: #ffffff;
+}
+
+.contact-page .button:hover {
+  background: #1f2937;
+  color: #ffffff;
+}
+
+@media (max-width: 800px) {
+  .contact-media {
+    grid-template-columns: 1fr;
+  }
+}

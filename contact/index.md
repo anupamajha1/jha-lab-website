@@ -5,11 +5,9 @@ nav:
   tooltip: Email, address, and location
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+# {% include icon.html icon="fa-regular fa-envelope" %}Contact Us
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Our lab is part of the Yale School of Medicine's Department of Genetics. We are headquartered on the third floor of the Sterling Hall of Medicine.
 
 {%
   include button.html
@@ -32,46 +30,21 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% include section.html %}
 
-{% capture col1 %}
-
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
-{% endcapture %}
-
-{% capture col2 %}
-
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 %}
-
-{% include section.html dark=true %}
-
-{% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
+<div class="contact-media">
+  <div class="contact-media-card">
+    {% include figure.html image="images/jhalab_background.jpg" caption="Sterling Hall of Medicine" %}
+  </div>
+  <div class="contact-media-card">
+    <figure class="figure">
+      <div class="contact-map-frame">
+        <iframe
+          src="https://www.google.com/maps?q=333+Cedar+Street,+New+Haven,+CT+06510&z=16&output=embed"
+          title="Map showing 333 Cedar Street, New Haven, CT 06510"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <figcaption class="figure-caption">333 Cedar Street, New Haven, CT 06510</figcaption>
+    </figure>
+  </div>
+</div>
