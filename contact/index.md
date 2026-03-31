@@ -7,71 +7,34 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<div class="contact-page">
+  <div class="contact-panel">
+    <div class="contact-copy">
+      <h2>Jha Lab</h2>
+      <p class="contact-dept">Department of Genetics, Yale School of Medicine</p>
 
-{%
-  include button.html
-  type="email"
-  text="anupama.jha@yale.edu"
-  link="anupama.jha@yale.edu"
-%}
-{%
-  include button.html
-  type="phone"
-  text="(203) 737-1081"
-  link="+1-203-737-1081"
-%}
-{%
-  include button.html
-  type="address"
-  tooltip="Our location on Google Maps for easy navigation"
-  link="https://maps.app.goo.gl/XkvoRFJmKwEVkDSS9"
-%}
+      <p class="contact-email">
+        <a href="mailto:anupama.jha@yale.edu">anupama.jha@yale.edu</a>
+      </p>
 
-{% include section.html %}
+      <p class="contact-join">
+        Interested in joining the lab? Visit the <a href="https://jhalab.org/join/">Join page</a> for information on applying.
+      </p>
 
-{% capture col1 %}
+      <div class="contact-location">
+        <h3>Location</h3>
+        <p>Sterling Hall of Medicine</p>
+        <p>333 Cedar Street, New Haven, CT 06510</p>
+      </div>
+    </div>
 
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
-{% endcapture %}
-
-{% capture col2 %}
-
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 %}
-
-{% include section.html dark=true %}
-
-{% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
+    <div class="contact-map">
+      <iframe
+        src="https://www.google.com/maps?q=333+Cedar+Street,+New+Haven,+CT+06510&z=16&output=embed"
+        title="Map showing Sterling Hall of Medicine"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+  </div>
+</div>
