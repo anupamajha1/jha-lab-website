@@ -17,7 +17,7 @@ We study 3D genome architecture and gene regulation in healthy tissues and cance
 
 We are looking for postdoctoral researchers, postgraduate associates, and PhD students who are excited about gene regulation, genome architecture, and machine learning.
 
-**Interested in joining the lab?** Visit the [Join page]({{ "/contact/" | relative_url }}) for information on opportunities and how to apply.
+**Interested in joining the lab?** Visit the [Join page]({{ "/join/" | relative_url }}) for information on opportunities and how to apply.
 
 {% endcapture %}
 
@@ -34,7 +34,7 @@ We are looking for postdoctoral researchers, postgraduate associates, and PhD st
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We develop interpretable machine learning methods to predict genome architecture and gene regulation from sequence and genomic data.
 
 {%
   include button.html
@@ -51,18 +51,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="images/photo.jpg"
   link="publications"
-  title="Our Research"
+  title="AI in Biology"
   text=text
 %}
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Explore recent publications spanning 3D genome architecture, RNA splicing, long-read epigenomics, and interpretable machine learning.
 
 {%
   include button.html
-  link="projects"
-  text="Browse our projects"
+  link="publications"
+  text="Browse our publications"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -73,8 +73,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include feature.html
   image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
+  link="publications"
+  title="Publications"
   flip=true
   style="bare"
   text=text
@@ -82,7 +82,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Meet the researchers building computational methods to understand genome regulation across healthy tissues and disease.
 
 {%
   include button.html
