@@ -60,6 +60,13 @@ button {
 }
 
 .button[data-style=home-cta] {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  width: fit-content;
+  max-width: max-content;
+  min-width: 0;
   margin-top: 5px;
   padding: 8px 15px;
   border-radius: var(--rounded);
@@ -73,6 +80,10 @@ button {
 .button[data-style=home-cta]:hover {
   background: var(--text);
   color: var(--background);
+}
+
+.button[data-style=home-cta][data-flip] {
+  flex-direction: row-reverse;
 }
 
 .button[data-flip] {
