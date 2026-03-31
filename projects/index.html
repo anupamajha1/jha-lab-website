@@ -251,6 +251,10 @@
   
 
   
+    <link href="/_styles/research-page.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/rule.css" rel="stylesheet">
   
 
@@ -520,26 +524,107 @@
     <h1 id="research">
 <i class="icon fa-solid fa-microscope"></i>Research</h1>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<div class="research-page">
+  <p class="research-lead">
+    We build interpretable machine learning models to understand how DNA sequence and 3D genome architecture shape gene regulation across healthy tissues, mammalian evolution, and cancer.
+  </p>
 
-<div class="tags">
-    
-      <a href="/projects/?search=%22tag:%20publication%22" class="tag" data-tooltip='Show items with the tag "publication"'>
-        publication
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
-        resource
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20website%22" class="tag" data-tooltip='Show items with the tag "website"'>
-        website
-      </a>
-    
+  <div class="research-intro">
+    <p>
+      Our work sits at the intersection of genomics, RNA biology, and machine learning. We integrate Hi-C, ATAC-seq, RNA-seq, long-read chromatin assays, and comparative genomics to study how nuclear organization influences transcription, splicing, and cellular identity. Across this program, we aim to uncover the sequence rules of genome folding, model how chromatin architecture impacts downstream regulation, and identify when these regulatory systems break in disease.
+    </p>
+    <p>
+      This research program grows directly out of my previous work in interpretable models of RNA splicing, long-read epigenomic tool building, and sequence-to-function prediction of chromosomal contacts. Together, these directions define a broader agenda: using AI to connect genome sequence to structure, and structure to function.
+    </p>
   </div>
 
-<div class="search-info"></div>
+  
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="/publications/" data-style="cta" aria-label="button">
+      
+      
+        <span>See our publications</span>
+      
+    </a>
+  </div>
+  
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+
+  <h2>Research Areas</h2>
+
+  <div class="research-arm">
+    <div class="research-arm-image">
+      <img src="/images/figure_research_statement.png" alt="Overview of sequence, chromatin architecture, and gene regulation">
+    </div>
+    <div class="research-arm-text">
+      <h3>Modeling how 3D genome architecture regulates gene expression and splicing</h3>
+      <p>
+        A central goal of the lab is to understand how chromatin interactions shape transcriptional output and isoform regulation across tissues. We are developing sequence-to-function models that combine DNA sequence, chromatin accessibility, and 3D genome organization to predict transcriptional and post-transcriptional regulation in human cells.
+      </p>
+      <p>
+        These models are designed to move beyond promoter-proximal prediction and capture how distal regulatory interactions influence tissue-specific gene regulation in both healthy and disease contexts.
+      </p>
+    </div>
+  </div>
+
+  <div class="research-arm" data-flip="true">
+    <div class="research-arm-image">
+      <img src="/images/twinc.jpg" alt="TwinC figure for predicting chromatin contacts from sequence">
+    </div>
+    <div class="research-arm-text">
+      <h3>Learning the sequence rules of genome folding</h3>
+      <p>
+        We develop predictive models of chromatin contacts to identify the sequence determinants of nuclear organization. Building on TwinC and related work, we study both cis and trans contacts across human tissues to reveal the motifs and sequence features that help establish large-scale 3D genome structure.
+      </p>
+      <p>
+        This direction also opens the door to variant interpretation: predicting how SNPs, indels, and structural variants alter nuclear architecture and, in turn, gene regulation.
+      </p>
+    </div>
+  </div>
+
+  <div class="research-arm">
+    <div class="research-arm-image">
+      <img src="/images/evo2hic_figure.png" alt="Cross-species modeling of genome architecture">
+    </div>
+    <div class="research-arm-text">
+      <h3>Comparative and multimodal models of chromatin architecture</h3>
+      <p>
+        We are interested in what genome organization is conserved across mammalian evolution and what that conservation reveals about regulatory function. By integrating sequence, Hi-C, accessibility, and multimodal foundation-model representations, we aim to derive structure-aware measures of conservation and identify regulatory elements shaped by both sequence and 3D context.
+      </p>
+      <p>
+        These comparative models help us ask not only how genomes fold, but which aspects of folding are stable, functional, and predictive across species and cell types.
+      </p>
+    </div>
+  </div>
+
+  <div class="research-arm" data-flip="true">
+    <div class="research-arm-image">
+      <img src="/images/cancer-signatures.jpg" alt="Cancer gene regulation and transcriptomic dysregulation">
+    </div>
+    <div class="research-arm-text">
+      <h3>Discovering genome-structure mechanisms of gene misregulation in cancer</h3>
+      <p>
+        We use large-scale genomic and transcriptomic data to study how cancer rewires genome organization and downstream gene regulation. This includes identifying chromatin and sequence variants associated with altered expression and splicing programs, and building models that connect aberrant 3D structure to shared cancer phenotypes.
+      </p>
+      <p>
+        Our long-term goal is to define which sequence and structural alterations drive gene misregulation in tumors and to make those mechanisms predictable from genomic data.
+      </p>
+    </div>
+  </div>
   </section>
 
   
@@ -553,87 +638,13 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   <size></size>
 -->
 
-<h2 id="featured">Featured</h2>
 
-<div class="card" data-style="">
-  <a href="https://github.com/" aria-label="Cool Dataset" class="card-image">
-    <img src="/images/photo.jpg" alt="Cool Dataset" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a href="https://github.com/" class="card-title">
-        Cool Dataset
-    </a>
-    
-
-    
-      <span class="card-subtitle">a subtitle</span>
-    
-
-    
-      <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-      </p>
-    
-
-    
-      
-
-
-  <div class="tags" data-repo="greenelab/lab-website-template">
-    
-      <a href="/projects/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
-        resource
-      </a>
-    
+  <div class="research-bridge">
+    <h2>From Previous Work to Future Directions</h2>
+    <p>
+      My previous research established a foundation in interpretable deep learning for alternative splicing, regulatory network discovery for RNA-binding proteins, transcriptomic analysis across heterogeneous disease cohorts, and tool development for long-read epigenomics. The next phase of the lab extends that work into a unified program centered on 3D genome architecture: building AI methods that explain how regulatory information is encoded in DNA sequence, organized in the nucleus, and translated into cellular function.
+    </p>
   </div>
-
-
-    
-  </div>
-</div>
-
-<div class="card" data-style="">
-  <a href="https://github.com/" aria-label="Cool Package" class="card-image">
-    <img src="/images/photo.jpg" alt="Cool Package" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a href="https://github.com/" class="card-title">
-        Cool Package
-    </a>
-    
-
-    
-      <span class="card-subtitle">a subtitle</span>
-    
-
-    
-      <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-      </p>
-    
-
-    
-      
-
-
-  <div class="tags" data-repo="greenelab/lab-website-template">
-    
-      <a href="/projects/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
-        resource
-      </a>
-    
-  </div>
-
-
-    
-  </div>
-</div>
   </section>
 
   
@@ -647,130 +658,28 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   <size></size>
 -->
 
-<h2 id="more">More</h2>
 
-<div class="card" data-style="small">
-  <a href="https://github.com/" aria-label="Cool Tutorial" class="card-image">
-    <img src="/images/photo.jpg" alt="Cool Tutorial" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a href="https://github.com/" class="card-title">
-        Cool Tutorial
-    </a>
-    
-
-    
-      <span class="card-subtitle">a subtitle</span>
-    
-
-    
-      <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-      </p>
-    
-
-    
-      
-
-
-  <div class="tags" data-repo="greenelab/lab-website-template">
-    
-      <a href="/projects/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
-        resource
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20publication%22" class="tag" data-tooltip='Show items with the tag "publication"'>
-        publication
-      </a>
-    
+  <div class="research-talks">
+    <h2>Research Talks</h2>
+    <p class="research-talks-intro">
+      These talks give a short introduction to the kinds of questions, models, and datasets that motivate the lab.
+    </p>
+    <div class="video-grid">
+      <div class="video-card">
+        <div class="video-frame">
+          <iframe src="https://www.youtube.com/embed/WPf9hqXJLIU" title="MLCB 2023 talk" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+        </div>
+        <p class="video-caption">One-minute research talk from MLCB 2023</p>
+      </div>
+      <div class="video-card">
+        <div class="video-frame">
+          <iframe src="https://www.youtube.com/embed/eHwMlYv-wlE" title="ISMB ECCB 2023 talk" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+        </div>
+        <p class="video-caption">Conference talk on modeling 3D genome architecture and regulation</p>
+      </div>
+    </div>
   </div>
-
-
-    
-  </div>
-</div>
-
-<div class="card" data-style="small">
-  <a href="https://github.com/" aria-label="Cool Web App" class="card-image">
-    <img src="/images/photo.jpg" alt="Cool Web App" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a href="https://github.com/" class="card-title">
-        Cool Web App
-    </a>
-    
-
-    
-      <span class="card-subtitle">a subtitle</span>
-    
-
-    
-      <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-      </p>
-    
-
-    
-      
-
-
-  <div class="tags" data-repo="greenelab/lab-website-template">
-    
-      <a href="/projects/?search=%22tag:%20software%22" class="tag" data-tooltip='Show items with the tag "software"'>
-        software
-      </a>
-    
-  </div>
-
-
-    
-  </div>
-</div>
-
-<div class="card" data-style="small">
-  <a href="https://github.com/" aria-label="Cool Web Server" class="card-image">
-    <img src="/images/photo.jpg" alt="Cool Web Server" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a href="https://github.com/" class="card-title">
-        Cool Web Server
-    </a>
-    
-
-    
-      <span class="card-subtitle">a subtitle</span>
-    
-
-    
-      <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-      </p>
-    
-
-    
-      
-
-
-  <div class="tags" data-repo="greenelab/lab-website-template">
-    
-      <a href="/projects/?search=%22tag:%20software%22" class="tag" data-tooltip='Show items with the tag "software"'>
-        software
-      </a>
-    
-  </div>
-
-
-    
-  </div>
+</section>
 </div>
   </section>
 
