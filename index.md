@@ -39,7 +39,7 @@ We develop interpretable machine learning methods to predict genome architecture
 {%
   include button.html
   link="publications"
-  text="See our publications"
+  text="See our research"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -49,7 +49,7 @@ We develop interpretable machine learning methods to predict genome architecture
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/figure_research_statement.png"
   link="publications"
   title="AI in Biology"
   text=text
@@ -72,7 +72,7 @@ Explore recent publications spanning 3D genome architecture, RNA splicing, long-
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/twinc.jpg"
   link="publications"
   title="Publications"
   flip=true
@@ -97,7 +97,7 @@ Meet the researchers building computational methods to understand genome regulat
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/jhalab_background.jpg"
   link="team"
   title="Our Team"
   text=text
