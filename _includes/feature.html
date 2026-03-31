@@ -1,5 +1,8 @@
 <div
   class="feature"
+  {% if include.dark %}
+    data-dark="true"
+  {% endif %}
   {% if include.flip %}
     data-flip
   {% endif %}

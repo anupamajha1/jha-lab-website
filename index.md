@@ -26,6 +26,7 @@ We are looking for postdoctoral researchers, postgraduate associates, and PhD st
   image="images/jhalab_background.jpg"
   title="We are recruiting!"
   text=text
+  dark=true
 %}
 
 {% include section.html %}
@@ -73,12 +74,13 @@ Explore recent publications spanning 3D genome architecture, RNA splicing, long-
 
 {%
   include feature.html
-  image="images/twinc.jpg"
+  image="images/publications_image.png"
   link="publications"
   title="Publications"
   flip=true
   style="bare"
   text=text
+  contain=true
 %}
 
 {% capture text %}
