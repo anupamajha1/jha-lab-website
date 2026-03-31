@@ -43,7 +43,7 @@ We develop interpretable machine learning methods to predict genome architecture
   text="See our research"
   icon="fa-solid fa-arrow-right"
   flip=true
-  style="cta"
+  style="home-cta"
 %}
 
 {% endcapture %}
@@ -67,7 +67,7 @@ Explore recent publications spanning 3D genome architecture, RNA splicing, long-
   text="Browse our publications"
   icon="fa-solid fa-arrow-right"
   flip=true
-  style="cta"
+  style="home-cta"
 %}
 
 {% endcapture %}
@@ -93,7 +93,7 @@ Meet the researchers building computational methods to understand genome regulat
   text="Meet our team"
   icon="fa-solid fa-arrow-right"
   flip=true
-  style="cta"
+  style="home-cta"
 %}
 
 {% endcapture %}
