@@ -46,6 +46,24 @@ button {
   }
 }
 
+.button[data-style="cta"] {
+  justify-content: space-between;
+  width: min(100%, 420px);
+  margin-top: 18px;
+  padding: 18px 28px;
+  border-radius: 14px;
+  background: #14b8a6;
+  color: #ffffff;
+  font-size: 1.05rem;
+  font-weight: var(--bold);
+  box-shadow: 0 12px 24px -18px rgba(20, 184, 166, 0.9);
+
+  &:hover {
+    background: #0f9f90;
+    color: #ffffff;
+  }
+}
+
 .button[data-flip] {
   flex-direction: row-reverse;
 }

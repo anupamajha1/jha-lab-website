@@ -12,6 +12,8 @@ $wrap: 800px;
 }
 
 .feature[data-dark="true"] {
+  width: 100%;
+  box-sizing: border-box;
   padding: 28px;
   border-radius: calc(var(--rounded) + 6px);
   background: #111827;
