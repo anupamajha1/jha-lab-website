@@ -5,7 +5,7 @@ nav:
   tooltip: Back to homepage
 ---
 
-# The Jha Lab at Yale Genetics
+# Jha Lab
 
  We study 3D genome architecture and downstream gene regulation across healthy tissues and cancers with machine learning.  
 
