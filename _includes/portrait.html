@@ -10,9 +10,10 @@
 {% assign type = site.data.types[member.role] %}
 
 <div class="portrait-wrapper">
+  {% assign portrait_link = member.portrait_link | default: member.url %}
   <a
     {% if page.slug != member.slug %}
-      href="{{ member.url | relative_url | uri_escape }}"
+      href="{{ portrait_link | relative_url | uri_escape }}"
     {% endif %}
     class="portrait"
     data-style="{{ include.style }}"
