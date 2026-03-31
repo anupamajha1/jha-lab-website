@@ -25,6 +25,43 @@ nav:
 
   {% include section.html %}
 
+  <div class="research-talks">
+    <h2>Research Talks</h2>
+    <p class="research-talks-intro">
+      These talks give a short introduction to the kinds of questions, models, and datasets that motivate the lab.
+    </p>
+    <div class="video-grid">
+      <div class="video-card">
+        <div class="video-frame">
+          <iframe
+            src="https://www.youtube.com/embed/WPf9hqXJLIU"
+            title="MLCB 2023 talk"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <p class="video-caption">One-minute research talk from MLCB 2023</p>
+      </div>
+      <div class="video-card">
+        <div class="video-frame">
+          <iframe
+            src="https://www.youtube.com/embed/eHwMlYv-wlE"
+            title="ISMB ECCB 2023 talk"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <p class="video-caption">Conference talk on modeling 3D genome architecture and regulation</p>
+      </div>
+    </div>
+  </div>
+
+  {% include section.html %}
+
   <h2>Research Areas</h2>
 
   <div class="research-arm">
@@ -88,48 +125,4 @@ nav:
   </div>
 
   {% include section.html %}
-
-  <div class="research-bridge">
-    <h2>From Previous Work to Future Directions</h2>
-    <p>
-      My previous research established a foundation in interpretable deep learning for alternative splicing, regulatory network discovery for RNA-binding proteins, transcriptomic analysis across heterogeneous disease cohorts, and tool development for long-read epigenomics. The next phase of the lab extends that work into a unified program centered on 3D genome architecture: building AI methods that explain how regulatory information is encoded in DNA sequence, organized in the nucleus, and translated into cellular function.
-    </p>
-  </div>
-
-  {% include section.html %}
-
-  <div class="research-talks">
-    <h2>Research Talks</h2>
-    <p class="research-talks-intro">
-      These talks give a short introduction to the kinds of questions, models, and datasets that motivate the lab.
-    </p>
-    <div class="video-grid">
-      <div class="video-card">
-        <div class="video-frame">
-          <iframe
-            src="https://www.youtube.com/embed/WPf9hqXJLIU"
-            title="MLCB 2023 talk"
-            loading="lazy"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <p class="video-caption">One-minute research talk from MLCB 2023</p>
-      </div>
-      <div class="video-card">
-        <div class="video-frame">
-          <iframe
-            src="https://www.youtube.com/embed/eHwMlYv-wlE"
-            title="ISMB ECCB 2023 talk"
-            loading="lazy"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <p class="video-caption">Conference talk on modeling 3D genome architecture and regulation</p>
-      </div>
-    </div>
-  </div>
 </div>

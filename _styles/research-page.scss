@@ -13,6 +13,11 @@
   text-align: left;
 }
 
+.research-page p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .research-lead {
   max-width: 900px;
   margin: 0 auto 28px;
@@ -103,6 +108,13 @@
 .research-talks-intro,
 .video-caption {
   text-align: center !important;
+}
+
+.research-page > .button-wrapper .button[data-style="cta"] {
+  width: auto;
+  min-width: 0;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 
 .video-grid {
