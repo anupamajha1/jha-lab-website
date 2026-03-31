@@ -112,6 +112,12 @@
   min-width: 0;
   padding-left: 22px;
   padding-right: 22px;
+  background: #1494d2;
+  box-shadow: 0 14px 26px -22px rgba(20, 148, 210, 0.95);
+}
+
+.research-page > .button-wrapper .button[data-style=cta]:hover {
+  background: #0f7fb6;
 }
 
 .video-grid {
