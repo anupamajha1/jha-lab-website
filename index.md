@@ -52,7 +52,7 @@ We develop interpretable machine learning methods to predict genome architecture
   include feature.html
   image="images/figure_research_statement.png"
   link="publications"
-  title="AI in Biology"
+  title="ML in Biology"
   text=text
   contain=true
 %}
