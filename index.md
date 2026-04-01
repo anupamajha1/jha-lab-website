@@ -15,7 +15,7 @@ We study 3D genome architecture and gene regulation in healthy tissues and cance
 
 {% capture text %}
 
-We are looking for postdoctoral associates, research staff, postgraduate associates, and PhD students who are excited about gene regulation, genome architecture, and machine learning.
+We are looking for postdoctoral associates, PhD, master's, and undergraduate students, postgraduate associates, and research staff who are excited about gene regulation, genome architecture, and machine learning.
 
 **Interested in joining the lab?** Please reach out to anupama[dot]jha[at]yale[dot]edu with your CV and a brief description of your research interests.
 
