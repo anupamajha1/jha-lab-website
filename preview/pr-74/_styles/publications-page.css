@@ -1,0 +1,11 @@
+.background:has(.citation-container) a:not(.button),
+.background:has(.citation-container) .button[data-style=bare] {
+  color: #000000;
+}
+
+.background:has(.citation-container) a:not(.button):hover,
+.background:has(.citation-container) .button[data-style=bare]:hover {
+  color: #1f2937;
+}
+
+/*# sourceMappingURL=publications-page.css.map */
