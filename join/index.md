@@ -5,17 +5,25 @@ nav:
   tooltip: Join the lab
 ---
 
-# {% include icon.html icon="fa-solid fa-user-plus" %}Join
+# {% include icon.html icon="fa-solid fa-user-plus" %}Join Our Lab
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+{% capture text %}
 
-{% include section.html %}
+We are always looking for motivated people to join the lab! If you are interested in:
 
-{% include search-box.html %}
+- Postdoctoral Associates
+- Postgraduate Associates
+- Research Staff positions
+- Graduate Student rotations
 
-{% include tags.html tags=site.tags %}
+Please reach out at [anupama.jha@yale.edu](mailto:anupama.jha@yale.edu) with your CV and a brief description of your research interests.
 
-{% include search-info.html %}
+{% endcapture %}
 
-{% include list.html data="posts" component="post-excerpt" %}
+{%
+  include feature.html
+  image="images/jhalab_background.jpg"
+  title="Opportunities"
+  text=text
+  dark=true
+%}
