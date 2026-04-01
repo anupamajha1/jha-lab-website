@@ -60,6 +60,10 @@
   color: #ffffff;
 }
 
+.feature[data-dark=true] .feature-text {
+  text-align: left;
+}
+
 .feature[data-dark=true] .feature-image {
   box-shadow: none;
 }
