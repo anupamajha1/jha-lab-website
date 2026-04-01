@@ -42,7 +42,7 @@ nav:
             allowfullscreen
           ></iframe>
         </div>
-        <p class="video-caption">One-minute research talk from MLCB 2023</p>
+        <p class="video-caption">Conference talk at ISMB/ECCB 2024</p>
       </div>
       <div class="video-card">
         <div class="video-frame">
@@ -55,7 +55,7 @@ nav:
             allowfullscreen
           ></iframe>
         </div>
-        <p class="video-caption">Conference talk on modeling 3D genome architecture and regulation</p>
+        <p class="video-caption">Conference talk at ISMB 2023</p>
       </div>
     </div>
   </div>
