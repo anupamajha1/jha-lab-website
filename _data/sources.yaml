@@ -97,9 +97,15 @@
   image: images/splicing-targeted-detection.jpg
   description: Applies machine learning to optimize targeted detection of alternative splicing events.
   buttons:
-    - type: paper
-      text: Paper
-      link: https://doi.org/10.1093/nar/gkae1260
+  - type: paper
+    text: Paper
+    link: https://doi.org/10.1093/nar/gkae1260
+  - type: app
+    text: Tool
+    link: http://tools.biociphers.org/lsv-seq/
+  - type: source
+    text: Code
+    link: http://bitbucket.org/biociphers/lsv_seq_method/src/main/
 
 - id: doi:10.1101/2024.12.16.628821
   title: A generalizable Hi-C foundation model for chromatin architecture, single-cell and multi-omics analysis across species

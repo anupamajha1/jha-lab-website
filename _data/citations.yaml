@@ -111,6 +111,12 @@
   - type: paper
     text: Paper
     link: https://doi.org/10.1093/nar/gkae1260
+  - type: app
+    text: Tool
+    link: http://tools.biociphers.org/lsv-seq/
+  - type: source
+    text: Code
+    link: http://bitbucket.org/biociphers/lsv_seq_method/src/main/
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1101/2024.12.16.628821
