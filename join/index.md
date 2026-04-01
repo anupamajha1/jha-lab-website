@@ -16,7 +16,7 @@ We are always looking for motivated people to join the lab! If you are intereste
 - Research Staff positions
 - Graduate Student rotations
 
-Please reach out at [anupama.jha@yale.edu](mailto:anupama.jha@yale.edu) with your CV and a brief description of your research interests.
+Please reach out at anupama[dot]jha[at]yale[dot]edu with your CV and a brief description of your research interests.
 
 {% endcapture %}
 
