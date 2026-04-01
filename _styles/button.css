@@ -28,6 +28,12 @@ button {
   transition: background var(--transition), color var(--transition);
 }
 
+.button,
+.button span,
+.button .icon {
+  color: #ffffff !important;
+}
+
 .button:hover {
   background: #1f2937;
   color: #ffffff;
