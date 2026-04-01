@@ -76,15 +76,18 @@
   - Yoseph Barash
   publisher: openRxiv
   date: '2025-01-24'
-  link: https://doi.org/10.1101/2025.01.20.633986
+  link: https://elifesciences.org/reviewed-preprints/106043
   type: preprint
   image: images/generative-splicing.jpg
   description: Uses generative modeling to predict and design RNA splicing outcomes
     from sequence features.
   buttons:
-  - type: paper
+  - type: preprint
     text: Preprint
-    link: https://doi.org/10.1101/2025.01.20.633986
+    link: https://www.biorxiv.org/content/10.1101/2025.01.20.633986v2
+  - type: source
+    text: Code
+    link: https://bitbucket.org/biociphers/traspr/src/main/
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1093/nar/gkae1260
