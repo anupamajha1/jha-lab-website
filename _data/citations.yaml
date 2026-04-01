@@ -246,6 +246,9 @@
   - type: paper
     text: Paper
     link: https://doi.org/10.1101/gr.279095.124
+  - type: app
+    text: Tool
+    link: https://fiberseq.github.io/fibertools/fibertools.html
   - type: source
     text: Code
     link: https://github.com/fiberseq/fibertools-rs
