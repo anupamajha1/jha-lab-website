@@ -8,10 +8,6 @@ nav:
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
 <div class="research-page">
-  <p class="research-lead">
-    We build interpretable machine learning models to understand how DNA sequence and 3D genome architecture shape gene regulation across healthy tissues, mammalian evolution, and cancer.
-  </p>
-
   <div class="research-intro">
     <p>
       My laboratory focuses on developing large-scale computational and machine learning methods to reveal the sequence basis of 3D genome architecture and its impact on downstream gene regulation across human tissues and evolution. Leveraging large-scale and heterogeneous multi-omics data across human tissues and mammalian species, combined with novel, integrative, and interpretable machine learning methods, we study how sequence variations influence the nuclear organization in humans and across mammalian evolution, how variations in nuclear organization impact transcriptional and post-transcriptional gene regulation across human tissues, and how the regulatory infrastructure is misregulated in cancer. We are creating the first comprehensive map of tissue-specific regulatory elements implicated in tissue-agnostic and tissue-specific regulation through cis- and trans-chromosomal contacts.
