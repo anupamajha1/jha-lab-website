@@ -15,6 +15,8 @@ We are always looking for motivated people to join the lab! If you are intereste
 - Postgraduate Associates
 - Research Staff positions
 - Graduate Student rotations
+- Master's Students
+- Undergraduate Students
 
 Please reach out at anupama[dot]jha[at]yale[dot]edu with your CV and a brief description of your research interests.
 
