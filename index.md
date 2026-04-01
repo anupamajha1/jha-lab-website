@@ -35,7 +35,7 @@ We are looking for postdoctoral associates, PhD, master's, and undergraduate stu
 
 {% capture text %}
 
-We develop interpretable machine learning methods to predict genome architecture and gene regulation from sequence and genomic data.
+We develop large-scale computational and machine-learning methods to reveal the sequence basis of 3D genome architecture and its impact on downstream gene regulation across human tissues and across evolution.
 
 {%
   include button.html
