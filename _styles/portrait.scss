@@ -15,6 +15,7 @@
   width: 175px;
   max-width: calc(100% - 20px - 20px);
   text-decoration: none;
+  color: #000000;
 }
 
 .portrait[data-style="small"] {
@@ -69,6 +70,12 @@
 .portrait-name {
   font-family: var(--heading);
   font-weight: var(--semi-bold);
+}
+
+.portrait-name,
+.portrait-description,
+.portrait-affiliation {
+  color: #000000;
 }
 
 .portrait[data-style="tiny"] {
