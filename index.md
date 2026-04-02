@@ -39,7 +39,7 @@ We develop large-scale computational and machine-learning methods to reveal the 
 
 {%
   include button.html
-  link="publications"
+  link="projects"
   text="See our research"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -51,7 +51,7 @@ We develop large-scale computational and machine-learning methods to reveal the 
 {%
   include feature.html
   image="images/figure_research_statement.png"
-  link="publications"
+  link="projects"
   title="ML in Biology"
   text=text
   contain=true
